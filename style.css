@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'Hey-Gorgeous';
+    src: url('resources/fonts/Hey-Gorgeous.ttf.woff') format('woff'),
+        url('resources/fonts/Hey-Gorgeous.ttf.svg#Hey-Gorgeous') format('svg'),
+        url('resources/fonts/Hey-Gorgeous.ttf.eot'),
+        url('resources/fonts/Hey-Gorgeous.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: 'Hey-Gorgeous';	
+}
+
+a {
+  color: peru;
+  text-decoration: none;
+}
+
+html {
+	height: 100%;
+	cursor: url(resources/fingercur2.png), auto;
+}
+
+body {
+	background-image: url(resources/dirt.png);
+	image-rendering: pixelated;
+}
+
+#bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	margin-bottom: 30px;
+}
+
+header img {
+	transform: scale(1.5);
+	image-rendering: auto;
+}
+
+main, footer {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+
+#sidenav {
+	border: 2px solid black;
+	width: auto;
+	border-radius: 8px;
+	background-image: url(resources/bricks_white.png);
+	box-shadow: 5px 0 5px white inset, 0 5px 5px white inset, -5px 0 5px #333 inset, 0 -5px 5px #333 inset;
+}
+
+.topleft {
+	position: absolute;
+	transform: translate(-50%, -50%) scale(2);
+}
+
+img {
+	image-rendering: pixelated;
+}
+
+.links {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.links ul {
+	padding: 0;
+}
+
+.links ul li {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.links ul li a {
+	text-decoration: none;
+	color: black;
+	text-shadow: -1px 0 white, 1px 0 white, 0 -1px white, 0 1px white;
+	margin-left: 5px;
+}
+
+.links ul li a:hover {
+	position: relative;
+	transform: translate(5px);
+}
+
+.flexv {
+	display: flex;
+	flex-flow: column nowrap;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.box {
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	margin-bottom: 5px;
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 8px;
+	background-color: #f2f2f2;
+	box-shadow: 5px 0 5px white inset, 0 5px 5px white inset, -5px 0 5px #333 inset, 0 -5px 5px #333 inset;
+}
+
+#goombario {
+	position: relative;
+	transform: translate(-5px, -5px);
+	float: left;
+}
+
+.topright {
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translate(50%, -50%) scale(2);
+}
+
+.textbox {
+	margin: 10px;
+	font-size: 10px;
+}
+
+.bottomleft {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: translate(-50%, 50%);
+}
+
+.flexd {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	margin-left: 10px;
+	width: 10%;
+}
+
+.flexd img {
+	margin-bottom: 10px;
+}
+
+.topcent {
+	position: absolute;
+	top: 0;
+	transform: translate(0, -60%);
+	image-rendering: auto;
+}
+
+#bombette {
+	float: right;
+}
+
+.audio {
+	padding: 5px;
+	width: auto;
+	height: 30px;
+}
+
+.box2 {
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 8px;
+	background-color: #f2f2f2;
+	box-shadow: 5px 0 5px white inset, 0 5px 5px white inset, -5px 0 5px #333 inset, 0 -5px 5px #333 inset;
+}
+
+.flexr {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.cpwrw {
+	font-size: 10px;
+	color: white;
+}
+
+.cpwrw a {
+	color: cyan;
+}
+
+.medpic {
+  width: 300px;
+  image-rendering: auto;
+}
+
+.popborder {
+	border: 2px solid black;
+	border-radius: 8px;
+	box-shadow: 5px 0 5px white inset, 0 5px 5px white inset, -5px 0 5px #333 inset, 0 -5px 5px #333 inset;
+}
+
+#marios {
+  width: 100px; 
+}

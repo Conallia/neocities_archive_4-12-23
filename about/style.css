@@ -1,0 +1,80 @@
+body {
+  background-image: linear-gradient(rgb(255, 255, 255, 0), rgb(255, 255, 255, 1)), url(/bg/flowers.webp); 
+}
+
+.topnav {
+	width: auto;
+	padding: 10px;
+	background-color: white;
+}
+
+.topnav > a {
+	float: left;
+	padding: 5px;
+	margin-right: 20px;
+	background-color: #ffccb3;
+	color: #b33c00;
+	text-decoration: none;
+}
+
+h1 {
+  tex-shadow: 0 0 0 #b33c00; 
+}
+
+.textbox {
+	background-color: white;
+	width: 55%;
+	padding: 50px;
+	margin-right: 5px;
+}
+
+.textbox * {
+	color: #b33c00;
+}
+
+.textbox p {
+	line-height: 25px;
+}
+
+.textbox a {
+	color: purple;
+}
+
+.borderbox {
+	padding: 10px;
+	border: 1px solid peru;
+	background-color: white;
+}
+
+.borderboxr {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+	padding: 10px;
+	margin-right: 5px;
+	border: 1px solid peru;
+	background-color: white;
+	text-align: center;
+}
+
+.audiobox {
+	padding: 10px;
+	border: 1px solid white;
+  background-image: url("/funky.gif"); 
+}
+
+.borderbox *, .borderboxr * {
+	color: #b33c00;
+}
+
+.audiobox * {
+  color: white; 
+}
+
+.borderbox a {
+  color: purple;
+}
+
+.borderbox img, .borderboxr img {
+  width: 100%;
+}

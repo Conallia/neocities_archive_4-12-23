@@ -1,0 +1,137 @@
+* {
+	font-family: 'Courier';	
+}
+
+html {
+	min-height: 100%;
+}
+
+body {
+	background-image: linear-gradient(rgb(6, 13, 19, 0.9), rgb(20, 41, 82, 0.5)), url(stars.gif);
+}
+
+header {
+	position: fixed;
+	width: 99%;
+	top: 5px;
+	left: 6px;
+}
+
+.topnav {
+	width: auto;
+	padding: 10px;
+	background-color: black;
+}
+
+.topnav > a {
+	float: left;
+	padding: 5px;
+	margin-right: 20px;
+	background-color: cyan;
+	color: black;
+	text-decoration: none;
+}
+
+.topnav > a:hover {
+  position: relative;
+  top: 10px;
+}
+
+main {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+h1 {
+	margin-top: 70px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: white;
+}
+
+.textbox {
+	background-color: rgb(0, 0, 0, 0.7);
+	width: 65%;
+	padding: 30px;
+	margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+	.textbox {
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+}
+
+.textbox * {
+	color: white;
+}
+
+.textbox p {
+	line-height: 25px;
+}
+
+.textbox a {
+	color: cyan;
+}
+
+.sidebar {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 25%;
+}
+
+.borderbox {
+	padding: 10px;
+	border: 1px solid peru;
+	background-color: rgb(0, 0, 0, 0.7);
+}
+
+.borderboxr {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+	padding: 10px;
+	margin-right: 5px;
+	border: 1px solid peru;
+	background-color: rgb(0, 0, 0, 0.7);
+	text-align: center;
+}
+
+.audiobox {
+	padding: 10px;
+	border: 1px solid white;
+  background-image: url("/funky.gif"); 
+}
+
+.borderbox *, .borderboxr * {
+	color: white;
+}
+
+.audiobox * {
+  color: white; 
+}
+
+.borderbox a {
+  color: cyan;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+.borderbox p {
+	margin: 0;
+}
+
+hr {
+	border: 1px solid white;
+}
+
+footer .textbox {
+  width: auto; 
+  margin-top: 5px;
+  padding: 10px;
+}

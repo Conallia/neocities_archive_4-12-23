@@ -1,0 +1,39 @@
+html {
+	min-height: 100%;
+}
+
+body {
+	image-rendering: pixelated;
+	background-image: linear-gradient(rgb(6, 13, 19, 0.9), rgb(20, 41, 82, 0.5)), url(forest.png);
+	background-size: cover;
+}
+
+header {
+	position: fixed;
+	margin: 10px;
+	width: 99%;
+	top: 5px;
+	left: 6px;
+}
+
+a {
+	color: cyan;
+	text-decoration: none;
+	font-family: 'Courier';
+}
+
+h1 {
+	margin-top: 20%;
+	text-align: center;
+	color: white;
+}
+
+.textbox {
+	margin: 20%;
+	margin-bottom: 10px;
+	padding: 50px;
+	color: white;
+	line-height: 25px;
+	text-align: justify;
+	background-color: rgb(0, 0, 0, 0.4);
+}

@@ -1,0 +1,24 @@
+body {
+  background-color: black; 
+}
+
+#welcome {
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(resources/wood.png);
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+#bg {
+  background-image: url(resources/background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+}
